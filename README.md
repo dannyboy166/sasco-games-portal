@@ -35,12 +35,21 @@ This folder coordinates the integration of Daniel's games into Victor's school p
 **Integration**: Simple iframe embed
 **Purpose**: Free time reward game
 
+### 5. Memory Game (Vanilla JS)
+**Status**: SASCO branding applied, ready to deploy
+**Location**: https://github.com/dannyboy166/memory-game (to be created)
+**Live URL**: https://dannyboy166.github.io/memory-game/ (pending)
+**Type**: Free time reward - card matching (educational potential with themed cards)
+**Integration**: Simple iframe embed
+**Purpose**: Free time reward game (can be educational with letter/number/vocab cards)
+
 ## Integration Roadmap
 
 ### Phase 1: Get Mum's Approval ✓
-- [x] Show Mum all 3 browser games
+- [x] Show Mum all 4 browser games (Kangaroo, Wordle, 2048, Memory)
 - [ ] Confirm which games to include
 - [ ] Discuss Wordle teacher customization feature
+- [ ] Discuss Memory Game educational themes (letters, numbers, vocab)
 
 ### Phase 2: Optimize Games (Current)
 **Kangaroo Hop:**
@@ -60,11 +69,20 @@ This folder coordinates the integration of Daniel's games into Victor's school p
 - [ ] Add "Return to Portal" button
 - [ ] Optional: Track high scores
 
+**Memory Game:**
+- [ ] Deploy to GitHub Pages
+- [ ] Add URL parameter support (studentId, sessionId, token)
+- [ ] Add "Return to Portal" button
+- [ ] Add "Play Again" button
+- [ ] Optional: Create educational card themes (letters, numbers, vocabulary)
+- [ ] Optional: Track completion time and matches
+
 ### Phase 3: Victor Integration Planning
-- [ ] Email Victor about the 3 browser games
+- [ ] Email Victor about the 4 browser games
 - [ ] Clarify iframe requirements (size, aspect ratio)
 - [ ] Determine progress tracking needs
 - [ ] Decide on "Free Time" vs "Homework" categorization
+- [ ] Discuss Memory Game educational potential (themed cards)
 - [ ] Get JS Interop code if progress tracking needed
 
 ### Phase 4: Implementation
@@ -109,6 +127,7 @@ window.location.href = 'PORTAL_URL_HERE';
 - **my-kangaroo-game**: `/Users/danielsamus/my-kangaroo-game`
 - **wordle-game**: `/Users/danielsamus/wordle-game`
 - **2048-game**: `/Users/danielsamus/2048-game`
+- **memory-game**: `/Users/danielsamus/memory-game`
 
 ## Contact Info
 
@@ -118,11 +137,12 @@ window.location.href = 'PORTAL_URL_HERE';
 
 ## Next Steps
 
-1. Get Mum's approval for all 3 games
-2. Optimize games based on this plan
-3. Email Victor with game demos and requirements
-4. Coordinate integration timeline with Victor's MathCrush2 work
+1. Get Mum's approval for all 4 browser games
+2. Deploy Memory Game to GitHub Pages
+3. Optimize games based on this plan
+4. Email Victor with game demos and requirements
+5. Coordinate integration timeline with Victor's MathCrush2 work
 
 ---
 
-*Last updated: 2025-11-18*
+*Last updated: 2025-11-24*
